@@ -1,0 +1,130 @@
+/*
+* @Author: liu
+* @Date:   2018-02-06 09:33:06
+* @Last Modified by:   liu
+* @Last Modified time: 2018-02-24 13:34:53
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.dh{
+	width: 100%;
+	height: 0.88rem;
+	background: white;
+	overflow: hidden;
+}
+.dh img{
+	width: 0.2rem;
+	height: 0.4rem;
+	display: block;
+	float: left;
+	margin-left: 0.34rem;
+	margin-top: 0.23rem;
+}
+.dh span{
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	font-family: 苹方;
+	font-weight: 800;
+	float: left;
+	margin-left: 2.86rem;
+	margin-top: 0.26rem;
+}
+.main{
+	width: 100%;
+	height: 12.06rem;
+	background: #f6f8f8;
+	overflow: hidden;
+}
+.main .kk{
+	width: 7.02rem;
+	height: 11.06rem;
+	background: white;
+	border-radius: 0.1rem;
+	margin: 0.5rem auto 0;
+	overflow: hidden;
+	position: relative;
+}
+.main .kk .aa{
+	width: 1.4rem;
+	height: 1.4rem;
+	margin: 1rem auto 0;
+	background-image: url('../img/zhuce-tou.png');
+	background-size: cover;
+}
+input{
+	width: 3.64rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	box-shadow: 0 0 0.01rem 0.01rem rgba(85, 192, 219, 0.5);
+	margin: 0.3rem auto 0;
+	/* background: red; */
+	display: block;
+	padding-left: 1.06rem;
+	font-size: 0.24rem;
+	border: none;
+	font-family: 苹方;
+}
+.oo{
+	margin: 1rem auto 0;
+}
+.rr{
+	width: 0.35rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 3.56rem;
+	left: 1.48rem;
+}
+.pp{
+	width: 0.26rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 4.56rem;
+	left: 1.53rem;
+}
+.qq{
+	width: 0.3rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 5.56rem;
+	left: 1.51rem;
+}
+.zi{
+	font-size: 0.24rem;
+	font-family: 苹方;
+	font-weight: 700;
+	position: absolute;
+	top: 4.6rem;
+	right: 1.48rem;
+}
+/* input::-webkit-input-placeholder {
+	color: red;
+} */
+.main .kk .ee{
+	width: 4.5rem;
+	height: 0.2rem;
+	margin: 0.3rem auto 0;
+	font-size: 0.2rem;
+	font-weight: 300;
+	color: #bfbfbf;
+}
+.main .kk .ff{
+	width: 4.7rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	background: #9fb4ff;
+	margin: 1rem auto 0;
+	color: white;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.72rem;
+}
+a{
+	color: white;
+}

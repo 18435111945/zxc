@@ -1,0 +1,198 @@
+/*
+* @Author: liu
+* @Date:   2018-02-06 09:33:06
+* @Last Modified by:   liu
+* @Last Modified time: 2018-02-11 11:50:43
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.dh{
+	width: 7.5rem;
+	height: 0.88rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	overflow: hidden;
+}
+.dh .zuo{
+	width: 0.88rem;
+	height: 0.88rem;
+	background-image: url('../img/nav-fanhui@2x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:  0.2rem  0.4rem;
+	float: left;
+}
+.dh .aa{
+	float: left;
+	width: 5.26rem;
+	height: 0.5rem;
+	background: #f6f8f8;
+	border-radius: 0.25rem;
+	margin-top: 0.19rem;
+	margin-left: 0.19rem;
+	overflow: hidden;
+}
+.dh .aa input{
+	border: none;
+	display: block;
+	background: #f6f8f8;
+	width: 4rem;
+	color: #b4b5b5;
+	margin-top: 0.13rem;
+	font-size: 0.24rem;
+	margin-left: 0.26rem;
+	/* line-height: 0.5rem; */
+}
+.dh .you{
+	width: 0.88rem;
+	height: 0.88rem;
+	float: right;
+	background-image: url('../img/nav-shaixuan@2x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 0.4rem;
+}
+.zhanwei{
+	width: 7.5rem;
+	height: 0.88rem;
+}
+.down{
+	width: 100%;
+	height:13.34rem;
+	background: #f6f8f8;
+	overflow: hidden;
+}
+.down .box{
+	width: 7.02rem;
+	height: 1.9rem;
+	margin: 0.24rem auto 0;
+	background: white;
+	/* box-shadow: 0rem 0rem 0.05rem 0.02rem #e7e7e7; */
+	border-radius: 0.1rem;
+	overflow: hidden;
+}
+.down .box .zuo{
+	margin-left: 0.6rem;
+	height: 100%;
+	width: 1.61rem;
+	margin-right: 0.8rem;
+	/* background: red; */
+	float: left;
+}
+.down .box .zuo img{
+	width: 1.3rem;
+	height: 1.5rem;
+	display: block;
+	margin: 0.24rem auto 0;
+}
+.down .box .zuo .aa{
+	width: 1.2rem;
+}
+.down .box .zuo .bb{
+	width: 1.5rem;
+}
+.down .box .zuo .cc{
+	width: 1.24rem;
+}
+.down .box .you{
+	height: 100%;
+	width: 3.75rem;
+	/* background: red; */
+	float: left;
+}
+.down .box .you .up{
+	width: 100%;
+	height: 1.14rem;
+	border-bottom: 0.01rem dashed #bbbbbb;
+	overflow: hidden;
+}
+.down .box .you .up .zi{
+	margin-top: 0.3rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	font-family: 苹方;
+	font-size: 0.24rem;
+	font-weight: 700;
+}
+.down .box .you .up span{
+	font-family: San Francisc Display;
+	font-size: 0.3rem;
+	font-weight: 900;
+	display: block;
+	margin-top: 0.16rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	color:#9fb4ff;
+}
+.down .box .you .up del{
+	font-family: San Francisc Display;
+	font-size: 0.2rem;
+	font-weight: 500;
+	display: block;
+	margin-top: 0.19rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	float: right;
+	margin-right: 0.3rem;
+	color: #bbbbbb;
+}
+.down .box .you img{
+	width: 0.14rem;
+	height: 0.2rem;
+	display: block;
+	margin-top: 0.27rem;
+	float: left;
+}
+.down .box .you span{
+	font-size: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+	color: #7a7a7a;
+}
+.down .box .you .oo{
+	margin-left: 0.2rem;
+}
+.tab{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	box-shadow: 0 -0.01rem 0.01rem #f6f8f8;
+	position: fixed;
+	top: 12.36rem;
+	left: 0;
+}
+.tab .box{
+	float: left;
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	overflow: hidden;
+}
+.tab .box img{
+	display: block;
+	margin: 0.16rem auto 0;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.tab .box .zi{
+	font-size: 0.2rem;
+	margin-top: 0.06rem;
+	text-align: center;
+	color: #a2a2a2;
+}
+.tab .box .pp{
+	color: #9fb4ff;
+}
+.tab .box .aa{
+	width: 0.36rem;
+}

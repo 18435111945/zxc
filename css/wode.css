@@ -1,0 +1,168 @@
+/*
+* @Author: liu
+* @Date:   2018-02-06 09:33:06
+* @Last Modified by:   liu
+* @Last Modified time: 2018-02-24 17:32:06
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #292929;
+}
+.dh{
+	width: 100%;
+	height: 0.88rem;
+	background: white;
+	overflow: hidden;
+}
+.dh img{
+	width: 0.4rem;
+	height: 0.36rem;
+	display: block;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.26rem;
+}
+.dh span{
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	font-family: 苹方;
+	font-weight: 800;
+	float: left;
+	margin-left: 2.86rem;
+	margin-top: 0.26rem;
+}
+.main{
+	width: 100%;
+	height: 11.48rem;
+	background: #f6f8f8;
+}
+.main .top{
+	width: 100%;
+	height: 2.52rem;
+	/* background: red; */
+}
+.main .top .aa{
+	width: 1.32rem;
+	height: 1.32rem;
+	background-image: url('../img/wode-touxiang.png');
+	background-size: cover;
+	margin-left: 0.48rem;
+	margin-top: 0.6rem;
+	float: left;
+}
+.main .top .bb{
+	width: 3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.3rem;
+	float: left;
+	/* background: white; */
+	margin-top: 0.9rem;
+	margin-left: 0.24rem;
+	font-family: 苹方;
+}
+.main .top .cc{
+	width: 3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.3rem;
+	float: left;
+	/* background: white; */
+	margin-top: 0.2rem;
+	margin-left: 0.24rem;
+	font-family: 苹方;
+}
+.main .top .dd{
+	width: 0.38rem;
+	height: 0.4rem;
+	float: right;
+	background-image: url('../img/wode-icon-bianji@2x.png');
+	background-size: cover;
+	margin-top: -0.13rem;
+	margin-right: 0.49rem;
+}
+.main .xia{
+	width: 7.02rem;
+	height: 5.76rem;
+	border-radius: 0.1rem;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main .xia .box{
+	width: 100%;
+	height: 0.4rem;
+	/* background: red; */
+	margin-top: 0.48rem;
+	overflow: hidden;
+}
+.main .xia .box img{
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.main .xia .box span{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	margin-left: 0.2rem;
+	float: left;
+	font-family: 苹方;
+}
+.main .xia .box .you{
+	width: 0.14rem;
+	height: 0.24rem;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.08rem;
+	background-image: url('../img/wode-you.png');
+	background-size: cover;
+}
+.main .xia .box .aa{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	margin-right: 0.4rem;
+	float: right;
+}
+.tab{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	box-shadow: 0 -0.01rem 0.01rem #f6f8f8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.tab .box{
+	float: left;
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	overflow: hidden;
+}
+.tab .box img{
+	display: block;
+	margin: 0.16rem auto 0;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.tab .box .zi{
+	font-size: 0.2rem;
+	margin-top: 0.06rem;
+	text-align: center;
+	color: #a2a2a2;
+}
+.tab .box .pp{
+	color: #9fb4ff;
+}
+.tab .box .aa{
+	width: 0.36rem;
+}
